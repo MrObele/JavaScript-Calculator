@@ -1,0 +1,53 @@
+/*application background*/
+body{
+  background-color:black;
+}
+/*calculator body*/
+#calculator{
+  margin-top:10px;
+  padding-bottom:5px;
+  background-color:#343436;
+  width:340px;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius:5%;
+  -moz-box-shadow: 7px 10px 34px 1px rgba(0, 0, 0, 0.68), inset -1px -6px 12px 0.1px #89847e;
+  -webkit-box-shadow: 7px 10px 34px 1px rgba(0, 0, 0, 0.68), inset -1px -6px 12px 0.1px #89847e;
+   box-shadow: 7px 10px 34px 1px rgba(0, 0, 0, 0.68), inset 1px -1px 12px 0.1px #89847e;
+}
+/*title*/
+.heading{
+  padding-top:15px;
+  color:grey;
+  font-family: 'Brush Script MT', cursive;
+}
+
+/*input area*/
+#displayValue{
+  margin-top:15px;
+  height:80px;
+  width:310px;
+  font-size: 3em;
+  background-color:#C0C0C0;
+}
+/*buttons*/
+.allkeys{
+  border-radius: 50%;
+  height:30%;
+  width:15%;
+  margin: 8px;
+  -moz-box-shadow: 2px 2px 2px rgba(114,127,140,0.74);
+  -webkit-box-shadow: 5px 5px 5px rgba(114,127,140,0.6);
+  box-shadow: 5px 3px 3px
+    rgba(4, 20, 36, 0.74)
+}
+/*for buttons with class special. */
+.special{
+  background-color:#666666;
+  color:white;
+}
+
+/* remove outline on focus of any button */
+*:focus {
+    outline: 0 !important;
+}

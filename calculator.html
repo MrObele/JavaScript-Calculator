@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Javascript Calculator</title>
+		    <link  rel='stylesheet' href="src/bootstrap3.3.7/css/bootstrap.min.css" type='text/css'>
+        <link rel="stylesheet" href="src/css/style.css" type="text/css">
+        <script type="text/javascript" src="src/js/jQuery.js"></script>
+        <script type="text/javascript" src="src/bootstrap3.3.7/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="src/js/Calculator.js"></script>
+    </head>
+ <body>
+
+<!--Javascript Calculator-->
+<div class="container text-center">
+  <div class="container text-center" id="calculator">
+  <div class="heading">
+    <h2 id="title">JavaScript Calculator</h2>
+  </div>
+    <input type="text" class="text-right" id="displayValue" value="" /><br/>
+  <hr style="background-color:#666666"/>
+  <button class="btn btn-primary allkeys" id ="delete">C</button>
+  <button class="btn special allkeys operationKeys operators" id ="division" value="/">/</button>
+   <button class="btn special allkeys operationKeys operators" id ="mult" value="*">X</button>
+   <button class="btn special allkeys text-left" id ="clear">CE</button>
+  <br />
+  <button class="btn allkeys" id ="seven" value="7">7</button>
+  <button class="btn allkeys" id ="eight" value="8">8</button>
+  <button class="btn allkeys" id ="nine" value="9">9</button>
+  <button class="btn special allkeys operators" id ="sub" value="-">-</button>
+  <br />
+  <button class="btn allkeys" id ="four" value="4">4</button>
+  <button class="btn allkeys" id ="five" value="5">5</button>
+  <button class="btn allkeys" id ="six" value="6">6</button>
+  <button class="btn special allkeys operationKeys operators" id ="plus" value="+">+</button>
+  <br />
+  <button class="btn allkeys" id ="one" value="1">1</button>
+  <button class="btn allkeys" id ="two" value="2">2</button>
+  <button class="btn allkeys" id ="three" value="3">3</button>
+  <button class="btn special allkeys" id ="zero" value="0">0</button>
+  <br />
+  <button class="btn allkeys" id ="dot" value=".">.</button>
+      <button class="btn allkeys" id ="leftBracket" value="(">(</button>
+      <button class="btn allkeys" id ="rightBracket" value=")">)</button>
+
+
+  <button class="btn btn-warning allkeys" id="result">=</button>
+  <br />
+</div>
+</div>
+    </body>
+</html>
